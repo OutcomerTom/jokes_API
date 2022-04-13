@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;  
+}
+
+.category {
+    text-align: center;
+}
+
+.btn, .item {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 25px;
+    margin:6px;
+}
+
+.btn:hover, .item:hover {
+    color: pink
+}
+
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+#jokeTxt {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 760px;
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item {
+  width: fit-content;
+  min-width: 100px;
+  margin: 3px auto;
+}
+
+
+.btn-hidden {
+    visibility: hidden;
+}
